@@ -1,0 +1,66 @@
+body{
+    background-color: #EBECF0;
+}
+body{
+    font-family:'montserrat',sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+}
+.card{
+    background-color: white;
+    border: 2px solid #BABECC;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 5px 5px 5px green;
+ }
+div{
+    color: #BABECC;
+    text-shadow: 1px 1px 1px #FFF;
+}
+form{
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px green;
+    background-color: white;
+    
+}
+input,select,textarea{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 320px;
+    padding: 16px;
+    background-color:#EBECF0;
+    text-shadow: 1px 1px 1px #FFF;    
+}
+label,textarea,select{
+    display: block;
+    margin-bottom:24px;
+    width: 100%;
+    margin: 10px;
+}
+input,textarea,select{
+    margin-right: 8px;
+    box-shadow: 5px 5px 5px 0px #BABECC;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: block;
+    width: 100%;  
+}
+.register{
+    text-align: center;
+}
+.btn input:hover{
+    background-color: grey;
+    color:white;
+}
